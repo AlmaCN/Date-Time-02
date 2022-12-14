@@ -17,6 +17,7 @@ public class Start {
 
         /*
         Usando ZonedDateTime ho stampato la data corrente usando la forma ISO Zoned Date Time
+
          */
         ZonedDateTime now = ZonedDateTime.now();
         System.out.println(now.format(DateTimeFormatter.ISO_ZONED_DATE_TIME));
